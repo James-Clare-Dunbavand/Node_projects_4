@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task Manager</title>
+	<link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Task Manager</h1>
+	<section id="tasks">
+		<article class="task">
+			<p>My task</p>
+			<div class="buttons"><button type="button">complete</button>
+				<button type="button">delete</button>
+				<button type="button">modify</button>
+			</div>
+		</article>
+	</section>
+
+	<form id="task-maker" action="/api/v1/tasks" method="POST">
+		<label for="newTask">
+			<input type="text" name="newTask" placeholder="new task" />
+		</label>
+		<input type="submit" value="Submit">
+
+	</form>
+</body>
+
+</html>

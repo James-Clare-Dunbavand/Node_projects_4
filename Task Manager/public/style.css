@@ -1,0 +1,45 @@
+body {
+	background-color: slategrey;
+
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+#tasks {
+
+	background-color: plum;
+
+	width: 60vh;
+	margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.task {
+	background-color: peachpuff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+
+}
+
+.buttons {
+	display: flex;
+}
+
+#task-maker {
+	margin: 20px auto;
+	width: 60vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: plum;
+	padding: 20px;
+
+	border-radius: 20px;
+
+}
