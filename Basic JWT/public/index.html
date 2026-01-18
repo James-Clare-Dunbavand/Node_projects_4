@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic JWT</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<form id="login-form" action="/api/v1/login" method="post">
+		<lable for="username"><input class="form-input" type="text" name="username" placeholder="Username">
+		</lable>
+		<lable for="password"><input class="form-input" type="text" name="password" placeholder="Password">
+		</lable>
+		<button class="form-input" type="submit">Login</button>
+	</form>
+
+	<section id="dashboard">
+		<p>Token:<span id="token-text">none</span></p>
+		<p id="welcome-text">Not logged in</p>
+		<button type="button" id="number-getter" class="form-input">Get code</button>
+		<p id="secret-code">44</p>
+
+	</section>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
