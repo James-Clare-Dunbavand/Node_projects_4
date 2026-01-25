@@ -1,4 +1,6 @@
 
+x = "hello world";
+console.log(x);
 const getNumberButton = document.getElementById("number-getter");
 const loginForm = document.getElementById("login-form");
 const tokenText = document.getElementById("token-text");

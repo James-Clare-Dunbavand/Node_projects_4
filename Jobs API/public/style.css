@@ -1,0 +1,143 @@
+body {
+	height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#login-link {
+	margin-top: 10px;
+}
+
+form {
+	background-color: lavender;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: 2px 2px 4px;
+
+}
+
+
+form.auth-form {
+	width: 50dvw;
+	height: 50dvh;
+}
+
+form input {
+	width: 60%;
+	height: 10%;
+	border-radius: 5px;
+	border-style: none;
+	box-shadow: inset 2px 2px 4px;
+	padding-left: 10px;
+}
+
+form label {
+	width: 60%;
+	height: 10%;
+	border-style: none;
+
+}
+
+form button {
+	width: 60%;
+	height: 10%;
+	border-radius: 5px;
+	border-style: none;
+	box-shadow: 1px 1px 2px;
+
+}
+
+form button:hover {
+	background-color: rgb(220, 220, 220);
+}
+
+form button:active {
+	transform: scale(0.95);
+	box-shadow: inset 2px 2px 4px;
+}
+
+
+#jobs {
+
+	background-color: lavender;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	gap: 5px;
+	align-items: center;
+	box-shadow: 2px 2px 4px;
+	width: 50dvw;
+	height: 80dvh;
+	padding: 20px;
+
+}
+
+.job {
+	background-color: lightcyan;
+
+	width: 100%;
+	border-radius: 5px;
+	border-style: none;
+	box-shadow: 1px 1px 2px;
+	display: grid;
+	grid-template-columns: 3fr 7fr 3fr 1fr 1fr;
+	column-gap: 10px;
+	padding: 6px;
+
+}
+
+.job-info {
+	background-color: lightblue;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px;
+	padding: 0.2rem;
+	font-size: 1rem;
+}
+
+#new-job-form {
+	position: absolute;
+	width: 50dvw;
+	height: 50dvh;
+
+}
+
+#modify-job-form {
+
+	position: absolute;
+	width: 50dvw;
+	height: 50dvh;
+
+}
+
+#search-job-form {
+	position: absolute;
+	width: 50dvw;
+	height: 50dvh;
+}
+
+#status-options {
+	border-radius: 10px;
+	border-width: 0.2px;
+	border-style: solid;
+	border-color: rgb(200, 200, 200);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px;
+}
+
+#status-options input {
+	height: 80%;
+	box-shadow: none;
+	border-style: none;
+}
+
+.hidden {
+	display: none;
+}

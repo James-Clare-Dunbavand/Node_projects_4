@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jobs API</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<section id="jobs">
+	</section>
+	<section id="form-openers">
+		<button type="button" id="open-job-form">New Job</button>
+		<button type="button" id="open-job-search-form">Find Job</button>
+
+	</section>
+	<form id="new-job-form" class="hidden">
+		<input type="text" name="company" placeholder="Company">
+		<input type="text" name="position" placeholder="Position">
+		<label for="status-options">Status:
+			<select id="status-options" name="status">
+
+				<option value="">Any</option>
+				<option value="interview">Interview</option>
+				<option value="pending">Pending</option>
+				<option value="declined">Declined</option>
+			</select>
+		</label>
+		<button type="submit">Create</button>
+	</form>
+	<form id="modify-job-form" class="hidden">
+		<input type="text" name="company" placeholder="Company">
+		<input type="text" name="position" placeholder="Position">
+		<label for="status-options">Status:
+			<select id="status-options" name="status">
+
+				<option value="">Any</option>
+				<option value="interview">Interview</option>
+				<option value="pending">Pending</option>
+				<option value="declined">Declined</option>
+			</select>
+		</label>
+		<button type="submit">Update</button>
+	</form>
+	<form id="search-job-form" class="hidden">
+		<input type="text" name="company" placeholder="Company">
+		<input type="text" name="position" placeholder="Position">
+		<label for="status-options">Status:
+			<select id="status-options" name="status">
+
+				<option value="">Any</option>
+				<option value="interview">Interview</option>
+				<option value="pending">Pending</option>
+				<option value="declined">Declined</option>
+			</select>
+		</label>
+		<button type="submit">Create</button>
+	</form>
+	<script src="job-script.js"></script>
+</body>
+
+</html>
