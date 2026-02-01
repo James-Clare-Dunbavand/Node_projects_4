@@ -8,4 +8,6 @@
 /Jobs API/.env
 /Image Upload/node_modules
 /Image Upload/.env
+/Send Emails/node_modules
+/Send Emails/.env
 
