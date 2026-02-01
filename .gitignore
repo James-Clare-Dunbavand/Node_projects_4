@@ -6,4 +6,6 @@
 /Basic JWT/.env
 /Jobs API/node_modules
 /Jobs API/.env
+/Image Upload/node_modules
+/Image Upload/.env
 
