@@ -10,4 +10,6 @@
 /Image Upload/.env
 /Send Emails/node_modules
 /Send Emails/.env
+/Stripe Payment/node_modules
+/Stripe Payment/.env
 
